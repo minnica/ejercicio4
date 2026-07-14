@@ -42,7 +42,10 @@ export class changeColor extends LitElement {
   }
 
   render() {
-    return html` <div class="size"></div> `;
+    return html` 
+    <h1>Ejercicio 4</h1>
+    <div class="size"></div> 
+    `;
   }
 }
 customElements.define("change-color", changeColor);
